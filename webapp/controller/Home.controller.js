@@ -4,8 +4,7 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("ResourceManagement.controller.Home", {
+// test
 
-/*hhhello fggfgd
-*/
 	});
 });
