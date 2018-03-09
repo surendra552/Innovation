@@ -6,7 +6,7 @@
 			<Page title="{i18n>title}">
 				<content>
 	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>employeeProfile}"
-		subheader="Employee Organization Details" press="press">
+		subheader="{i18n>homeSubheader}" press="press">
 		    <TileContent unit="EUR" footer="Current Quarter">
 			<ImageContent src="sap-icon://home-share" />
 		</TileContent>
