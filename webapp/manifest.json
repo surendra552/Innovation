@@ -72,6 +72,36 @@
 			"css": [{
 				"uri": "css/style.css"
 			}]
+		},
+		,
+	"routing": {
+	  "config": {
+		"routerClass": "sap.m.routing.Router",
+		"viewType": "XML",
+		"viewPath": "sap.ui.demo.wt.view",
+		"controlId": "app",
+		"controlAggregation": "pages"
+	  },
+	  "routes": [
+		{
+		  "pattern": "",
+		  "name": "home",
+		  "target": "home"
+		},
+		{
+		  "pattern": "emp_profile",
+		  "name": "emp_profile",
+		  "target": "empprofile"
 		}
+	  ],
+	  "targets": {
+		"home": {
+		  "viewName": "Home"
+		},
+		"empprofile": {
+		  "viewName": "EmpProfile"
+		}
+	  }
+	}
 	}
 }

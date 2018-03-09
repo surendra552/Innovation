@@ -22,6 +22,9 @@ sap.ui.define([
 
 			// set the device model
 			this.setModel(models.createDeviceModel(), "device");
+			
+			//Create a view based on the URL/View
+			this.getRouter().initialize();
 		}
 	});
 });
